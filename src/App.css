@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Custom styles for The DateLounge */
+.gradient-bg {
+  background: linear-gradient(135deg, #D158A5 0%, #D8B4E2 100%);
+}
+
+.card-shadow {
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.swipe-card {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.swipe-card:hover {
+  transform: translateY(-4px);
+}
+
+/* DateLounge Color Palette */
+:root {
+  --blush-plum: #D158A5;
+  --soft-lilac: #D8B4E2;
+  --ivory: #FFF9F6;
+  --fresh-mint: #7ED6A7;
+  --warm-coral: #F76C5E;
+}
+
+/* Smooth transitions */
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+

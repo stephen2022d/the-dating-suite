@@ -714,7 +714,7 @@ const Login = () => <div>Login - Coming Soon</div>
 
 // Main App Component
 function App() {
-  return (
+  
     <Router>
       <div className="App">
         <Routes>

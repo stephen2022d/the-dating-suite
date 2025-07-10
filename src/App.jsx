@@ -54,7 +54,28 @@ const LandingPage = () => {
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed" style={{fontFamily: 'Inter, sans-serif'}}>
                 A dating community built on support, honesty, real conversation — and of course, fun.
-              </p>
+              </p>{/* Scroll Down Prompt */}
+<div className="mt-10 text-center">
+  <div className="inline-flex flex-col items-center animate-bounce space-y-1">
+    <span className="text-sm text-gray-500" style={{fontFamily: 'Inter, sans-serif'}}>
+      Scroll down for more
+    </span>
+    <svg 
+      className="w-6 h-6 text-[#D158A5]" 
+      fill="none" 
+      stroke="currentColor" 
+      viewBox="0 0 24 24"
+    >
+      <path 
+        strokeLinecap="round" 
+        strokeLinejoin="round" 
+        strokeWidth="2" 
+        d="M19 14l-7 7m0 0l-7-7m7 7V3" 
+      />
+    </svg>
+  </div>
+</div>
+              
               <p className="text-lg text-gray-500">
                 Connect with people, not just profiles.
               </p>

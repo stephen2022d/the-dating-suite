@@ -58,7 +58,7 @@ const LandingPage = () => {
 <div className="mt-10 text-center">
   <div className="inline-flex flex-col items-center animate-bounce space-y-1">
     <span className="text-sm text-gray-500" style={{fontFamily: 'Inter, sans-serif'}}>
-      Scroll down for more
+      
     </span>
     <svg 
       className="w-6 h-6 text-[#D158A5]" 

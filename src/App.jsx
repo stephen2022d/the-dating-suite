@@ -706,7 +706,7 @@ const LandingPage = () => {
       </div>
     </div>
   
-}
+
 
 // Simple placeholder for other components
 const Dashboard = () => <div>Dashboard - Coming Soon</div>

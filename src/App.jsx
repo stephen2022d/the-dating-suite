@@ -126,11 +126,7 @@ const LandingPage = () => {
                   className="w-full h-80 object-cover rounded-2xl shadow-lg"
                 />
               </div>
-            </div>
-          </div>
-                </div>
-
-        {/* Scroll Down Indicator */}
+            </div>        {/* Scroll Down Indicator */}
         <div className="mt-12 text-center">
           <div className="inline-flex flex-col items-center space-y-2 animate-bounce">
             <span className="text-sm text-gray-500" style={{fontFamily: 'Inter, sans-serif'}}>
@@ -151,9 +147,15 @@ const LandingPage = () => {
             </svg>
           </div>
         </div>
+          </div>
+             
+              />
+            </svg>
+          </div>
+        </div>
 
         {/* AI Coaches Section - MOVED TO TOP FOR MAXIMUM ENGAGEMENT */}        {/* Scroll Down Indicator */}             ← NEW (add this)
-        <div className="mt-12 text-center">       ← NEW (add this)
+        <div className="mt-12 text-center">      
           <div className="inline-flex flex-col items-center space-y-2 animate-bounce">
             <span className="text-sm text-gray-500" style={{fontFamily: 'Inter, sans-serif'}}>
               Discover more below
@@ -172,9 +174,9 @@ const LandingPage = () => {
               />
             </svg>
           </div>
-        </div>                                    ← NEW (add this)
+        </div>                                   
 
-        {/* AI Coaches Section - MOVED TO TOP FOR MAXIMUM ENGAGEMENT */}  ← Line 133 (keep this)
+        {/* AI Coaches Section - MOVED TO TOP FOR MAXIMUM ENGAGEMENT */}  
 
         {/* AI Coaches Section - MOVED TO TOP FOR MAXIMUM ENGAGEMENT */}
         <div className="mt-20">

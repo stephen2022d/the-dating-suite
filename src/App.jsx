@@ -76,7 +76,27 @@ const LandingPage = () => {
               <p className="text-sm text-gray-400 text-center italic" style={{fontFamily: 'Inter, sans-serif'}}>
                 Now in BETA — help shape the future of dating.
               </p>
-              
+                      {/* Scroll Down Indicator */}
+        <div className="mt-12 text-center">
+          <div className="inline-flex flex-col items-center space-y-2 animate-bounce">
+            <span className="text-sm text-gray-500" style={{fontFamily: 'Inter, sans-serif'}}>
+              Discover more below
+            </span>
+            <svg 
+              className="w-6 h-6 text-[#D158A5]" 
+              fill="none" 
+              stroke="currentColor" 
+              viewBox="0 0 24 24"
+            >
+              <path 
+                strokeLinecap="round" 
+                strokeLinejoin="round" 
+                strokeWidth={2} 
+                d="M19 14l-7 7m0 0l-7-7m7 7V3" 
+              />
+            </svg>
+          </div>
+        </div>
               {/* Pricing Reassurance */}
               <p className="text-xs text-gray-400 text-center font-light" style={{fontFamily: 'Inter, sans-serif'}}>
                 The Dating Suite will always offer a free tier. Paid features will remain affordable and optional.
@@ -126,24 +146,7 @@ const LandingPage = () => {
                   className="w-full h-80 object-cover rounded-2xl shadow-lg"
                 />
               </div>
-            </div>        {/* Scroll Down Indicator */}
-        <div className="mt-12 text-center">
-          <div className="inline-flex flex-col items-center space-y-2 animate-bounce">
-            <span className="text-sm text-gray-500" style={{fontFamily: 'Inter, sans-serif'}}>
-              Discover more below
-            </span>
-            <svg 
-              className="w-6 h-6 text-[#D158A5]" 
-              fill="none" 
-              stroke="currentColor" 
-              viewBox="0 0 24 24"
-            >
-              <path 
-                strokeLinecap="round" 
-                strokeLinejoin="round" 
-                strokeWidth={2} 
-                d="M19 14l-7 7m0 0l-7-7m7 7V3" 
-              />
+            
             </svg>
           </div>
         </div>

@@ -33,7 +33,7 @@ const LandingPage = () => {
           </div>
           <span className="text-xl font-bold text-gray-800" style={{fontFamily: 'DM Serif Display, serif'}}>The Dating Suite</span>
           <span className="text-xs font-medium text-gray-400 bg-gray-100 px-2 py-1 rounded-full" style={{fontFamily: 'Inter, sans-serif'}}>BETA</span>
-        </div><p className="text-sm text-gray-500 mt-2 ml-1 animate-bounce">↓ Scroll down for more</p>
+        </div><p className="text-sm text-gray-500 mt-2 ml-1 animate-bounce"> ↓ Scroll down for more</p>
         <button 
           onClick={() => navigate('/login')}
           className="text-[#D158A5] hover:text-[#D8B4E2] font-medium"

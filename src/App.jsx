@@ -92,7 +92,7 @@ const LandingPage = () => {
                 👉 Join Our Waiting List – It's Free
               </a>
               <p className="text-sm text-gray-500" style={{fontFamily: 'Inter, sans-serif'}}>Free to join • No hidden fees</p>
-              
+            
               {/* BETA Notice */}
               <p className="text-sm text-gray-400 text-center italic" style={{fontFamily: 'Inter, sans-serif'}}>
                 Now in BETA — help shape the future of dating.

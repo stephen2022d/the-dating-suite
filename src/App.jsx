@@ -79,7 +79,7 @@ const LandingPage = () => {
               <p className="text-lg text-gray-500">
                 Connect with people, not just profiles.
               </p>
-            </div>
+            
             
             <div className="space-y-4">
               <a 
@@ -705,7 +705,7 @@ const LandingPage = () => {
         </div>
       </div>
     </div>
-  )
+  
 }
 
 // Simple placeholder for other components
@@ -725,7 +725,7 @@ function App() {
         </Routes>
       </div>
     </Router>
-  )
+  
 }
 
 export default App

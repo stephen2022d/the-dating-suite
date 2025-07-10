@@ -51,10 +51,10 @@ const LandingPage = () => {
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight" style={{fontFamily: 'DM Serif Display, serif'}}>
                 The Dating Suite — A Dating App & Community That 
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#D158A5] to-[#D8B4E2]"> Cares</span>
-              </h1>
+              </h1><p className="text-sm text-gray-500 mt-2 ml-1 animate-bounce">↓ Scroll down for more</p>
               <p className="text-xl text-gray-600 leading-relaxed" style={{fontFamily: 'Inter, sans-serif'}}>
                 A dating community built on support, honesty, real conversation — and of course, fun.
-              </p>{/* Scroll Down Prompt */}
+              
 <div className="mt-10 text-center">
   <div className="inline-flex flex-col items-center animate-bounce space-y-1">
     <span className="text-sm text-gray-500" style={{fontFamily: 'Inter, sans-serif'}}>

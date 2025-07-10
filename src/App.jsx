@@ -673,14 +673,15 @@ const LandingPage = () => {
           <p className="text-lg text-gray-500" style={{fontFamily: 'Inter, sans-serif'}}>
             Because meaningful relationships deserve better tools.
           </p>
-          
-          <a 
-            href="https://tally.so/r/nPNMV5"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-lg transform hover:scale-105 transition-all duration-200"
-            style={{backgroundColor: '#D158A5', fontFamily: 'Inter, sans-serif'}}
-          >
+
+                        <a 
+                href="https://tally.so/r/nPNMV5"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-lg transform hover:scale-105 transition-all duration-200"
+                style={{backgroundColor: '#7ED6A7', fontFamily: 'Inter, sans-serif'}}
+              >
+
             Join the Waiting List – It's Free
           </a>
           
